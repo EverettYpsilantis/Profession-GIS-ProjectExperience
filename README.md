@@ -68,7 +68,8 @@ With the ‘arcpy’ window in ArcGIS pro, Python commands were used to symboliz
 
 The wind farm consisted of 27 turbines spaced over 5,000 acres. Created a grid index map series, and a assigned a page query to show only one turbine per map. 
 
-# Wetland Delineation Report for Enel Green Power: Creation of four figures for a typical TRC Wetland Delineation Report:
+# Wetland Delineation Report for Enel Green Power: 
+Creation of four figures for a typical TRC Wetland Delineation Report:
 The wetland delineation report helps identify wetlands and soil types on site, to ensure infrastructure development follows local environmental regulations and built in a safe/stable location.
   - Figure i: USGS Topographic Site Location Map 
   - Figure ii: Soil Composition Map - Soils data extracted from the USDA Web Soils Survey; soil polygons are symbolized by ‘Hydric Rating’.
