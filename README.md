@@ -30,7 +30,7 @@ Presentation of TRC Delineated wetland data alongside proposed National Grid tra
   - Timber matting area estimates: resource figures allow the client to visualize the proximity of wetland and stream features to the transmission line to pinpoint areas where timber-matting may be necessary.
     - Timber matting is commonly used in transmission line projects to help stabilize work areas for heavy machinery and protect the ground underneath.
     - Once the locations of matting are picked out, typically overlapping wetlands, for a cost estimate.
-- Optimal access road planning for transmission line maintenance:
+- Conducted optimal access road planning for transmission line maintenance:
     - Access line data is provided in kmz., dwg., or shapefile form from the client for cost estimates and environmental impact assessment.
 
 
