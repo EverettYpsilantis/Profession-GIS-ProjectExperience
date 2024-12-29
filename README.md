@@ -48,5 +48,26 @@ Restoration phase maps were produced to present impacted areas, prioritize remed
   - Converted a digital elevation model into contour lines to predict the flow of groundwater chemicals on site.
   - Processed disturbed area polygons with field collected data to make acreage calculations for site impact analysis.
 
+# WIND POWER DEVELOPMENT PLANNING:
+
+# Setback analysis for Greenbacker on Howard Wind Farm - Repowering Project in New York
+The repowering project involved upgrading/replacing old turbines with more efficient models - improving energy output and lowering maintenance costs.
+
+Prior to the setback analysis, highlighted sensitive receptor points, or locations of residence, schools, government buildings, small structures on project parcels and adjacent non-participating parcels.
+  - Identifying receptors through the county parcel data helps the client minimize disturbances on the local community and ecosystem. 
+
+Applied buffers to all wind turbine locations based on New York state laws relating to the total height of the WTG (Wind Turbine Generator) in ArcGIS pro:
+    - 1.2 times the WTG height from the exterior of a participating residence receptor point.
+    - 2.2 times the WTG height from the exterior of a non-participating residence point.
+    - 1.1 times the WTG height from the nearest non-participating property, right of way of all public roads, and above-ground utilities. 
+    - 1.5 times the WTG height from non-participating permanent non-residential structures (garages, barns, commercial buildings etc.)
+    - 100 feet from NYSDEC wetlands
+
+With the ‘arcpy’ window in ArcGIS pro, Python commands were used to symbolize the buffers based on their spatial relationship. Buffers were symbolized in green and labeled as “pass” if they did not intersect with features related to the constraint laws.
+
+Any overlapping buffers of features subject to set back laws were labeled “fail” and symbolized in red. 
+
+The wind farm consisted of 27 turbines spaced over 5,000 acres. Created a grid index map series, and a assigned a page query to show only one turbine per map. 
+
 
 
