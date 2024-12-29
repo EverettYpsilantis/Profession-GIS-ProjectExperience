@@ -32,5 +32,21 @@ Presentation of TRC Delineated wetland data alongside proposed National Grid tra
     - Once the locations of matting are picked out, typically overlapping wetlands, for a cost estimate.
 - Conducted optimal access road planning for transmission line maintenance:
     - Access line data is provided in kmz., dwg., or shapefile form from the client for cost estimates and environmental impact assessment.
+ 
+# ENVIRONMENTAL CONTAMINATION AND NATURAL DISASTER RESPONSE:
+
+# Central Maine Power Company & Avangrid - Climate Vulnerability Assessment
+Analyzed the relationship of CMP transmission lines, transformers, structures, and substations with FEMA Floodplains and NOAA Sea Level Rise data to identify risk zones, assess vulnerability, and visualize impacts of severe flood events.
+  - Utilized ArcGIS pro model builder to create a workflow to intersect transmission line features with floodplain shapefiles and calculate the linear distance of overlap.
+    - Transmission lines were then dissolved by section number to expose the linear feet of each section within flood layers.
+  - Evaluated substations, poles, transformers, and underground manhole points in comparison to FEMA and NOAA layers.
+The climate vulnerability assessment helped pinpoint locations at risk of flood damage and expose assets in need of design modifications.
+
+# Environmental Contamination Response Mapping
+GIS analysis and figure creation for a chemical spill restoration effort. Disturbed/contaminated area polygons were created based on soil and water sample points from TRC field services.
+Restoration phase maps were produced to present impacted areas, prioritize remediation zones, and help the client visualize all phases of site recovery.
+  - Converted a digital elevation model into contour lines to predict the flow of groundwater chemicals on site.
+  - Processed disturbed area polygons with field collected data to make acreage calculations for site impact analysis.
+
 
 
