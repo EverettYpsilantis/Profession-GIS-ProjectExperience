@@ -88,7 +88,7 @@ Provided GIS analysis and figure production for a Tier 1 and Tier 2 environmenta
   - The tier 2 phase was designed for ‘Site Characterization’ and required TRC field collected data for map production.
     - Survey data for Raptor Nest Locations, Preferred Eagle Habitat Locations, and field verified Active Eagle nest coordinates were collected and mapped in ArcPro
     - For the raptor nest survey figure, nests were symbolized by status (unoccupied/occupied) and species (Bald Eagle, Red Tail Hawk, or unknown).
-      - Buffer occupied Eagle nests based on Iowa state setback laws.
+      - Buffered occupied Eagle nests based on Iowa state setback laws.
 
 # SOLAR INFRASTRUCTURE PLANNING:
 
