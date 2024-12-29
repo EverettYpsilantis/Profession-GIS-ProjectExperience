@@ -64,8 +64,7 @@ Applied buffers to all wind turbine locations based on New York state laws relat
   - 100 feet from NYSDEC wetlands
 
 With the ‘arcpy’ window in ArcGIS pro, Python commands were used to symbolize the buffers based on their spatial relationship. Buffers were symbolized in green and labeled as “pass” if they did not intersect with features related to the constraint laws.
-
-Any overlapping buffers of features subject to set back laws were labeled “fail” and symbolized in red. 
+  - Any overlapping buffers of features subject to set back laws were labeled “fail” and symbolized in red. 
 
 The wind farm consisted of 27 turbines spaced over 5,000 acres. Created a grid index map series, and a assigned a page query to show only one turbine per map. 
 
