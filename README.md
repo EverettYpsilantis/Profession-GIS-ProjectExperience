@@ -73,8 +73,36 @@ The wetland delineation report helps identify wetlands and soil types on site, t
   - Figure iii: State and Federal Wetland Resource Map - Displays on site DEC wetlands & streams, NHD flowlines, and NWI wetlands.
   - Figure iv: TRC Delineated Resources Map - TRC field services conduct a site survey on the 100-acre property in Jefferson County, NY, marking hydrographic data points with sub-meter GPS accuracy. Wetland and vernal pool vertices, streams, and various land cover types were digitized in ArcGIS Pro. Once all features are processed, accurate acreage calculations can be made for on–site wetland polygons and linear feet calculations for stream-lines. 
     - Buffered all hydrological features based on state setback laws and wetland jurisdictional status.
-    - Calculated linear feet and acreages fo both State & Federal and TRC Delineated streams and wetlands.
+    - Calculated linear feet and acreage for both State & Federal and TRC Delineated streams and wetlands.
 
+# Wind Farm Impact Analysis for Invenergy:
+Provided GIS analysis and figure production for a Tier 1 and Tier 2 environmental assessments to evaluate site suitability and potential impacts of a large-scale 100,000-acre Wind Farm in the state of Iowa.
+
+  - The tier 1 phase consists of an initial desktop assessment for potential environmental and wildlife risks before the field service efforts.
+    - The preliminary GIS work begins with creation of a site location figure to orient the client on the geographic position of the survey area.
+    - Figure 2: A land cover types map using raster imagery from the U.S. National Land Cover dataset
+      - The land cover raster was converted to a shapefile and clipped by the 10-mile survey area buffer.
+      - A separate Forested Landcover type figure was created with forested polygons symbolized by acreage intervals (0-5, 5-20, 20–50, >50)
+    - Figure 3: Consisted of national hydrography data such as National Hydrography Dataset streams & waterways, and National Wetland Inventory waterbodies & wetlands.
+    - Figure 4: Habitat & Conservation Map contained polygon shapefiles of Iowa state protected county, easement, and proclamation lands
+  - The tier 2 phase was designed for ‘Site Characterization’ and required TRC field collected data for map production.
+    - Survey data for Raptor Nest Locations, Preferred Eagle Habitat Locations, and field verified Active Eagle nest coordinates were collected and mapped in ArcPro
+    - For the raptor nest survey figure, nests were symbolized by status (unoccupied/occupied) and species (Bald Eagle, Red Tail Hawk, or unknown).
+      - Buffer occupied Eagle nests based on Iowa state setback laws.
+
+# SOLAR INFRASTRUCTURE PLANNING:
+
+# Ground mount and Rooftop Solar and Electric Vehicle Carport planning for the New York State Energy Research and Development Authority:
+Towns and counties across New York have varying constraint laws and specific zoning regulations for solar development.
+
+  - Utilized the ArcGIS pro and ArcMap software to present buildable areas for solar infrastructure in comparison to NY Rextag power networks, NYSDEC wetlands and streams, FEMA floodplains, and digital elevation models. 
+    - Proper NY solar setbacks were applied to adjacent parcel boundaries, onsite structures, wetlands, and slopes greater than 15% to highlight the optimal buildable area.
+    - Acreage calculations were conducted for buildable area and onsite DEC wetland polygons.
+
+# Solar Site Suitability analysis for Sol America: 
+  - USGS Site Location Maps, Environmental Constraint Maps, and Vernal Pool Survey figures created for properties in the state of Maine volunteering for solar panel installation.
+  - Environmental Constraint maps consist of spatial data from the Maine Department of Inland Fisheries & Wildlife, the Maine Land Use Planning Commission, and TRC Delineated Resources. 
+  - Additional Vernal Pool Survey maps with data collected by TRC wetland scientists were created to monitor biodiversity and preserve ecosystem health on-site.
 
 
 
