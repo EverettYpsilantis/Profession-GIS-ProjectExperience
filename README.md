@@ -68,5 +68,16 @@ With the ‘arcpy’ window in ArcGIS pro, Python commands were used to symboliz
 
 The wind farm consisted of 27 turbines spaced over 5,000 acres. Created a grid index map series, and a assigned a page query to show only one turbine per map. 
 
+# Wetland Delineation Report for Enel Green Power: Creation of four figures for a typical TRC Wetland Delineation Report:
+The wetland delineation report helps identify wetlands and soil types on site, to ensure infrastructure development follows local environmental regulations and built in a safe/stable location.
+  - Figure i: USGS Topographic Site Location Map 
+  - Figure ii: Soil Composition Map - Soils data extracted from the USDA Web Soils Survey; soil polygons are symbolized by ‘Hydric Rating’.
+    - Acreage and percent coverage calculations made for soil types intersecting the project area.
+  - Figure iii: State and Federal Wetland Resource Map - Displays on site DEC wetlands & streams, NHD flowlines, and NWI wetlands.
+  - Figure iv: TRC Delineated Resources Map - TRC field services conduct a site survey on the 100-acre property in Jefferson County, NY, marking hydrographic data points with sub-meter GPS accuracy. Wetland and vernal pool vertices, streams, and various land cover types were digitized in ArcGIS Pro. Once all features are processed, accurate acreage calculations can be made for on–site wetland polygons and linear feet calculations for stream-lines. 
+    - Buffered all hydrological features based on state setback laws and wetland jurisdictional status.
+    - Calculated linear feet and acreages fo both State & Federal and TRC Delineated streams and wetlands.
+
+
 
 
